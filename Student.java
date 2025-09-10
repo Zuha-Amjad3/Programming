@@ -16,5 +16,24 @@ public class Student{
 
 	}
 
+	public Student(){
+	}
+
+	public Student(String name, String email, double cGPA){
+		this.name  = name;
+		this.email = email;
+		this.cGPA = cGPA;
+	}
+
+	public void setInfo(String name, String email, double cGPA){
+		this.name  = name;
+		this.email = email;
+		this.cGPA = cGPA;	
+	}
+
+	public String getName(){
+		return this.name;
+	}
+
 
 }
